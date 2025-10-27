@@ -1,0 +1,29 @@
+body {
+    background-color:#efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.option {
+  border: none;
+  background: #3973f0;       
+  color: #ffffff;
+  padding: 16px 32px;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;         
+  gap: 15px;                      
+}
+
+.quiz-container {
+  width: 450px;
+  background: #ffffff;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+}
