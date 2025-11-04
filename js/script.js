@@ -30,6 +30,7 @@ let score = 0;
 const questionElement = document.getElementById("question");
 const optionsElements = document.querySelectorAll(".option");
 const nextButton = document.getElementById("next-button");
+nextButton.addEventListener("click", nextQuestion);
 
 function loadQuestion() {
   const currentQuestion = questions[currentQuestionIndex];

@@ -33,3 +33,11 @@ body {
   background: #f0398b;     
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
+.correct {
+  background: rgb(74, 176, 74);
+}
+
+.wrong {
+  background: red;
+}
